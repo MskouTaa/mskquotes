@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: 'Mukta',sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../pics/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header {
+    text-align: center;
+    font-size: 25px;
+    color: #f0eff3;
+}
+.navbar {
+    background-color:#a1bfc9 ;
+    width: 100%;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+.navbar ul li a{
+    color:#272727;
+    font-size: 17px;
+    padding: 10px;
+    margin: 25px;
+    transition: 0.3s ease;
+}
+.navbar ul li a:hover {
+    background-color: #533ea8;
+    color: #f0eff3;
+}
+@media screen and (min-width: 600px) {
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}
+.active a {
+    background-color: #533ea8;
+}
+main p {
+    color: #f0eff3;
+    font-size: 20px;
+    text-align: center;
+}
+main {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+main .gr button {
+    margin: auto;
+    padding: 5px;
+    background-color: #f0eff3;
+    border-radius: 10px #533ea8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-style: none;
+}
+main .gr button:hover{
+    color: #f0eff3;
+    background-color: #533ea8;
+}
+main button img {
+    width: 30px;
+}
+main .pic {
+    margin: auto;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .pic img {
+    width: 450px;
+    height: 400px;
+    border-radius: 8px;
+}
+main .btn{
+    margin-bottom: 8px;
+}
+main .btn a{
+    margin: auto;
+    margin-top: 6px;
+    width: 450px;
+    padding: 10px;
+    color: #272727;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #f0eff3;
+    border-radius: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+main .btn a:hover {
+    color: #f0eff3;
+    background-color: #533ea8;
+}
+footer {
+    text-align: center;
+    font-size: 17px;
+    color: #f0eff3;
+}
+footer a{
+    color: #f0eff3;
+    text-decoration: underline;
+}
+footer .pics a img{
+    width: 25px;
+}
